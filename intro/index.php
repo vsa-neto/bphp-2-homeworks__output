@@ -3,7 +3,6 @@
 // TASK 2.1
 echo  'название файла: ' . basename(__FILE__). ' | Строка: ' . __LINE__ . "\n";
 
-
 // TASK 2.2
 $user = [
     'name' => 'Иван',
@@ -21,8 +20,6 @@ $var1 = 'глаза';
 $var2 = 'руки';
 
 echo "$var1 боятся, а $var2 делают \n";
-
-
 
 
 // TASK 3.1
@@ -69,3 +66,4 @@ switch ($variable) {
         echo "other \n";
         break;
 }
+
