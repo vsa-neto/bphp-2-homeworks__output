@@ -1,12 +1,12 @@
 <?php
 
-$var1 = mb_ucfirst(mb_strtolower(readline("Введите Имя: ")));
-$var2 = mb_ucfirst(mb_strtolower(readline("Введите Фамилия: ")));
-$var3 = mb_ucfirst(mb_strtolower(readline("Введите Отчество: ")));
+$firstName = mb_ucfirst(mb_strtolower(readline("Введите Имя: ")));
+$lastName = mb_ucfirst(mb_strtolower(readline("Введите Фамилия: ")));
+$patronymic = mb_ucfirst(mb_strtolower(readline("Введите Отчество: ")));
 
-$fullName = "Полное имя: '$var2 $var1 $var3'";
-$fio = "Фамилия и инициалы: '". $var2." ". mb_substr($var1, 0, 1) .".". mb_substr($var3, 0, 1). ".'";
-$surnameAndInitials =  "Аббревиатура: ". mb_substr($var2, 0, 1) . mb_substr($var1, 0, 1) . mb_substr($var3, 0, 1). "'";
+$fullName = "Полное имя: '$lastName $firstName $patronymic'";
+$fio = "Фамилия и инициалы: '". $lastName." ". mb_substr($firstName, 0, 1) .".". mb_substr($patronymic, 0, 1). ".'";
+$surnameAndInitials =  "Аббревиатура: ". mb_substr($lastName, 0, 1) . mb_substr($firstName, 0, 1) . mb_substr($patronymic, 0, 1). "'";
    
 echo PHP_EOL; 
 echo $fullName.PHP_EOL;

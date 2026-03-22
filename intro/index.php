@@ -46,7 +46,7 @@ if (is_bool($variable)) {
     echo "other \n";
 }
 
-switch ($variable) {
+switch (true) {
     case (is_bool($variable)):
         echo "bool \n";
         break;
