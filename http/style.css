@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+/* * {
+   font-family: 'Roboto', sans-serif;
+} */
+
+h2, p, p span {
+    font-family: 'Roboto', sans-serif;
+}
+h2 {
+    font-weight: 700; 
+}
+
+p {
+
+    font-weight: 200;
+}
+
+span {
+    padding: 5px 8px;
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+    background-color: coral;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.navigate {
+    display: flex;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+
+
+li {
+  list-style-type: none; /* Убирает точки */
+  padding: 0;            /* Убирает отступы */
+  margin: 0;  
+
+}
+
+.link {
+    color: aliceblue;
+    margin-right: 20px;
+    padding: 5px 20px;
+    background-color: coral;
+    border-radius: 5px;
+    align-content: center;
+    text-decoration: none; 
+}
+.link:hover {
+        background-color: rgb(251, 90, 32);
+}
+
+.content {
+    margin:  10px 40px;
+    padding: 10px 20px;
+    border: solid 1px coral;
+    border-radius: 5px;
+}

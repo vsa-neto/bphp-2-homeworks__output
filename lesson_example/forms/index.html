@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form class="form" action="upload.php" method="post" enctype="multipart/form-data">
+    <labe class="label label_name" for="file_name">с каким именем сохранить файл на сервере?</labe>
+   <input class="input input_name" type="text" id="file_name" placeholder="new_img.jpg" name="name"> 
+  
+  <label class="label label_uploads" for="image_uploads">Выберите изображение (PNG, JPG):</label>
+  <input class="input input_uploads" type="file" id="image_uploads" name="filename" accept=".jpg, .jpeg, .png" multiple>
+  
+  <button class="send" type="submit" name="submit">Отправить на сервер</button>
+</form>
+    <!-- <form class="form" action="./form.php" method="post">
+    <labe class="label label_name" for="name">Имя:</labe>
+    <input class="input input_name" type="text" id="name" placeholder="new name" name="name"> 
+
+    <labe class="label label_name" for="email">Email:</labe>
+   <input class="input input_name" type="text" id="email" placeholder="new_img.jpg" name="email"> 
+  <input class="send" type="submit" name="submit" value="Отправить">
+</form> -->
+
+
+</body>
+</html>

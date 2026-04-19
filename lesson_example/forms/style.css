@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+.form {
+    display: flex;
+    flex-flow: column wrap;
+
+    width: 100%;
+    max-width: 400px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.label, .input, .send  {
+   margin: 10px 10px 5px;
+
+}
+
+.input_name {
+    padding: 10px;
+    border: solid 1px coral;
+    border-radius: 6px;
+}
+
+.input_uploads[type="file"]::file-selector-button {
+  color: white;  
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background-color: coral;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.input_uploads[type="file"]::file-selector-button:hover {
+  background-color: rgb(251, 90, 32);
+}
+
+.send {
+  max-width: 200px;
+  color: coral;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background-color: rgb(37, 37, 37);
+  cursor: pointer;
+  transition: all 0.1s;
+}
