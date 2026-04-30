@@ -1,20 +1,14 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-
-/* * {
-   font-family: 'Roboto', sans-serif;
-} */
 
 h2, p, p span {
     font-family: 'Roboto', sans-serif;
 }
+
 h2 {
-    font-weight: 700; 
+    font-weight: 700;
 }
 
 p {
-
     font-weight: 200;
 }
 
@@ -34,14 +28,13 @@ span {
     margin-top: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-
 }
 
 
 li {
-  list-style-type: none; /* Убирает точки */
-  padding: 0;            /* Убирает отступы */
-  margin: 0;  
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 
 }
 
@@ -52,14 +45,15 @@ li {
     background-color: coral;
     border-radius: 5px;
     align-content: center;
-    text-decoration: none; 
+    text-decoration: none;
 }
+
 .link:hover {
-        background-color: rgb(251, 90, 32);
+    background-color: rgb(251, 90, 32);
 }
 
 .content {
-    margin:  10px 40px;
+    margin: 10px 40px;
     padding: 10px 20px;
     border: solid 1px coral;
     border-radius: 5px;

@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 if (isset($_GET['text'])) {
     $text = $_GET['text'];
 
@@ -6,7 +9,6 @@ if (isset($_GET['text'])) {
 
     header('Content-Type: text/plain');
     header('Content-Disposition: attachment; filename= "' . $filename . '"');
-    // header('Content-Length: ' . strlen($text));
     echo $text;
     exit;
 } else {
