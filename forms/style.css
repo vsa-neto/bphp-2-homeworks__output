@@ -3,28 +3,30 @@
 
 
 .form {
-    display: flex;
-    flex-flow: column wrap;
+  display: flex;
+  flex-flow: column wrap;
 
-    width: 100%;
-    max-width: 400px;
-    font-family: 'Roboto', sans-serif;
+  width: 100%;
+  max-width: 400px;
+  font-family: 'Roboto', sans-serif;
 }
 
 
-.label, .input, .send  {
-   margin: 10px 10px 5px;
+.label,
+.input,
+.send {
+  margin: 10px 10px 5px;
 
 }
 
 .input_name {
-    padding: 10px;
-    border: solid 1px coral;
-    border-radius: 6px;
+  padding: 10px;
+  border: solid 1px coral;
+  border-radius: 6px;
 }
 
 .input_uploads[type="file"]::file-selector-button {
-  color: white;  
+  color: white;
   border: none;
   padding: 8px 16px;
   border-radius: 6px;
@@ -46,4 +48,15 @@
   background-color: rgb(37, 37, 37);
   cursor: pointer;
   transition: all 0.1s;
+}
+
+.message {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  padding: 20px;
+  background-color: coral;
+}
+
+.message span {
+  font-weight: 600;
 }

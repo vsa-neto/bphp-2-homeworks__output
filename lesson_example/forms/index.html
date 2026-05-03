@@ -8,9 +8,9 @@
 <body>
     <form class="form" action="upload.php" method="post" enctype="multipart/form-data">
     <labe class="label label_name" for="file_name">с каким именем сохранить файл на сервере?</labe>
-   <input class="input input_name" type="text" id="file_name" placeholder="new_img.jpg" name="name"> 
+   <input class="input input_name" type="text" id="file_name" name="name"> 
   
-  <label class="label label_uploads" for="image_uploads">Выберите изображение (PNG, JPG):</label>
+  <label class="label label_uploads" for="image_uploads">Выберите изображение (PNG, JPG, GIF):</label>
   <input class="input input_uploads" type="file" id="image_uploads" name="filename" accept=".jpg, .jpeg, .png" multiple>
   
   <button class="send" type="submit" name="submit">Отправить на сервер</button>
