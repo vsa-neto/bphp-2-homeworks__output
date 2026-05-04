@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 
-
 .form {
   display: flex;
   flex-flow: column wrap;
@@ -10,7 +9,6 @@
   max-width: 400px;
   font-family: 'Roboto', sans-serif;
 }
-
 
 .label,
 .input,

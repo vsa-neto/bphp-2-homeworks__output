@@ -31,9 +31,8 @@ try {
     if ($ext) {
 
         $target_file = $uploaddir . $name . $ext;
-
         $size = $_FILES['filename']['size'];
-        $fullPath = realpath($target_file);
+        $fullPath = __DIR__ . '/upload/$name$ext';
 
         move_uploaded_file($_FILES['filename']['tmp_name'], $target_file);
         echo "<div class='message'> Файл <span> $name$ext </span> успешно загружен.";
